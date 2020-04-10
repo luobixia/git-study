@@ -1,2 +1,2 @@
 # git-study
-study note
+# git学习笔记
