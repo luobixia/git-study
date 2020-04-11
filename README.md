@@ -45,27 +45,27 @@
  [Git官网安装链接](https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git)
 ## 使用Git之前需要做的最小配置  
 ### 最小配置
- - 配置user.name和user.email
+ - 配置user.name和user.email  
  ![](./setting_user.png)  
- global有什么作用？
-     缺省等同于local
-     $git config --local (local只对某个仓库有效)
-     $git config --global(global对当前用户所有仓库有效)
-     $git config --system (system对系统所有登录的用户有效)  
-     显示config的配置，加--list
-     $git config --list --local
-     $git config --list --global  
-     $git config --list --system
-     pwd(当前工作路径)
-     git config(查看现有的设备中已经配了哪些东西，什么都不输入的情况下，提示命令有哪些参数)  
-     ![](./git_config.png)  
+ global有什么作用？  
+ 缺省等同于local  
+ - $git config --local (local只对某个仓库有效)  
+ - $git config --global(global对当前用户所有仓库有效)  
+ - $git config --system (system对系统所有登录的用户有效)  
+ 显示config的配置，加--list  
+ - $git config --list --local  
+ - $git config --list --global  
+ - $git config --list --system  
+ pwd(当前工作路径)  
+ git config(查看现有的设备中已经配了哪些东西，什么都不输入的情况下，提示命令有哪些参数)  
+ ![](./git_config.png)  
 ## 创建第一个仓库并配置local用户信息  
 ### 建Git仓库
 两种场景：  
 1.把已有的项目代码纳入Git管理  
-$cd 项目代码所在的文件夹
-$git init  
-2.新建的项目直接用Git管理
-$cd 某个文件夹  
-$git init your_project #会在当前路径下创建和项目名称同名的·文件夹  
-$cd your_project
+- $cd 项目代码所在的文件夹  
+- $git init  
+2.新建的项目直接用Git管理  
+- $cd 某个文件夹  
+- $git init your_project #会在当前路径下创建和项目名称同名的·文件夹  
+- $cd your_project
