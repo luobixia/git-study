@@ -12,6 +12,9 @@
     * [最小配置](#最小配置)  
     * [config的三个作用域](#config的三个作用域)
 * [创建第一个仓库并配置local用户信息](#创建第一个仓库并配置local用户信息)  
+* [通过几次commit来认识工作区和暂存区](#通过几次commit来认识工作区和暂存区)  
+    * [往仓库里添加文件](#往仓库里添加文件)
+
 ## 版本管理的演变
 ### VCS出现前
 - 用目录拷贝区别不同版本
@@ -68,4 +71,12 @@
 2.新建的项目直接用Git管理  
     - $cd 某个文件夹  
     - $git init your_project #会在当前路径下创建和项目名称同名的·文件夹  
-    - $cd your_project
+    - $cd your_project  
+## 通过几次commit来认识工作区和暂存区
+### 往仓库里添加文件
+4次提交，一个像模像样的静态页面生成了  
+1.加入index.html和git-log  
+2.加入style.css  
+3.加入script.js  
+4.修改index.html和style.css  
+![](./commit.png)  
